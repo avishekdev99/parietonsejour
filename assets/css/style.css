@@ -120,11 +120,13 @@ p {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #fff;
 }
-.fixed-header{
+
+.fixed-header {
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 999;
 }
 
 /* header css end */
@@ -414,25 +416,36 @@ a.moreless-button {
     max-width: 80%;
     color: #000;
 }
-.privacy-wrap p{
+
+.privacy-wrap p {
     font-size: 1rem;
     margin-bottom: 10px;
 }
-.privacy-wrap p strong{
+
+.privacy-wrap p strong {
     color: #000;
 }
-.privacy-wrap ul{
+
+.privacy-wrap ul {
     list-style: disc;
     padding-left: 20px;
     margin: 10px 0;
 }
-.privacy-wrap ul li{
+
+.privacy-wrap ul li {
     padding: 2px 0;
 }
-.privacy-wrap{
+
+.privacy-wrap {
     margin-bottom: 30px;
 }
-.privacy-wrap:last-child{
+
+.privacy-wrap:last-child {
     margin-bottom: 0;
 }
+
 /* sub pages css end */
+
+
+
+
