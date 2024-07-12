@@ -17,21 +17,19 @@ $(".close").click(function() {
 
 $(window).scroll(function(){
     if ($(window).scrollTop() >= 30) {
-        $('header').addClass('fixed-header');
-        $('header').addClass('visible-title');
+        $('.site-header').addClass('fixed-header');
     }
     else {
-        $('header').removeClass('fixed-header');
-        $('header').removeClass('visible-title');
+        $('.site-header').removeClass('fixed-header');
     }
 });
 
-     $('.moreless-button').click(function() {
+$('.moreless-button').click(function() {
   $('.moretext').slideToggle();
-  if ($('.moreless-button').text() == "Přečtětesivíce") {
-    $(this).text("číst méně")
+  if ($('.moreless-button').text() == "Read more") {
+    $(this).text("Read less")
   } else {
-    $(this).text("Přečtětesivíce")
+    $(this).text("Read more")
   }
 });
 
