@@ -101,6 +101,7 @@
     .hero-section {
         height: 50vh;
     }
+  
 }
 @media(max-width:375px){
     .about-img {
@@ -108,5 +109,8 @@
     }
     .site-header .navbar-brand img {
         max-width: 170px;
+    }
+    .sub-banner .hero-text h1 {
+        font-size: 1.7rem;
     }
 }

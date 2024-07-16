@@ -312,6 +312,7 @@ p {
 a.moreless-button {
     font-size: 1.125rem;
     color: #1e516e;
+    text-decoration: underline;
 }
 
 .hotel-text h3 {
@@ -370,10 +371,15 @@ a.moreless-button {
     overflow: hidden;
     border-radius: 8px;
     height: 100%;
+    position: relative;
 }
-
+.vist-site {
+    position: absolute;
+    bottom: 15px;
+}
 .hotel-text {
     padding: 15px 10px;
+    padding-bottom: 40px;
 }
 
 .hotel-main .col-xl-4,
@@ -443,7 +449,10 @@ a.moreless-button {
 .privacy-wrap:last-child {
     margin-bottom: 0;
 }
-
+.contact-wrap p a {
+    font-weight: 500;
+    color: #000;
+}
 /* sub pages css end */
 
 
