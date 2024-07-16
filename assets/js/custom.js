@@ -26,10 +26,10 @@ $(window).scroll(function(){
 
 $('.moreless-button').click(function() {
   $('.moretext').slideToggle();
-  if ($('.moreless-button').text() == "Apprendre encore plus") {
-    $(this).text("Apprendre moins")
+  if ($('.moreless-button').text() == "En savoir plus") {
+    $(this).text("Lire moins")
   } else {
-    $(this).text("Apprendre encore plus")
+    $(this).text("En savoir plus")
   }
 });
 
